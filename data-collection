@@ -12,8 +12,8 @@ import librosa.display
 from df.enhance import enhance, init_df
 
 st.set_page_config(page_title="Audio Processor", layout="wide")
-st.title("Audio Processor with DeepFilterNet + VoiceFixer + EQ")
-st.markdown("Upload a WAV file to process with DeepFilterNet noise reduction, VoiceFixer restoration, and EQ filter.")
+st.title("Testing DeepFilterNet + VoiceFixer + EQ")
+st.markdown("Upload a WAV file")
 
 if "model" not in st.session_state:
     model, df_state, _ = init_df()
