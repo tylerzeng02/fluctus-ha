@@ -11,8 +11,7 @@ import torch
 from df.enhance import enhance, init_df
 
 st.set_page_config(page_title="10-Band Hearing Aid Equalizer", layout="centered")
-st.title("10-Band Hearing Aid Equalizer")
-st.markdown("This app supports real-time hearing aid filtering using DeepFilterNet. Upload audio, tune EQ settings, or enable live mode.")
+st.title("DeepFilterNet Integration")
 
 if "manual_denoise" not in st.session_state:
     st.session_state["manual_denoise"] = False
