@@ -9,7 +9,7 @@ import numpy as np
 import streamlit as st
 import base64
 
-st.set_page_config(page_title="VoiceFixer Live", layout="wide")
+st.set_page_config(page_title="VoiceFixer Integration", layout="wide")
 
 @st.cache_resource
 def load_voicefixer():
