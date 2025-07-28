@@ -15,8 +15,8 @@ from scipy.signal import resample_poly
 import torch
 from df.enhance import enhance, init_df
 
-st.set_page_config(page_title="Advanced Hearing Aid System", layout="wide")
-st.title("Advanced Hearing Aid System")
+st.set_page_config(page_title="Fluctus Hearing Aid", layout="wide")
+st.title("Fluctus Hearing Aid")
 
 if "manual_denoise" not in st.session_state:
     st.session_state["manual_denoise"] = False
